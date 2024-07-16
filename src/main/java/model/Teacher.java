@@ -26,10 +26,10 @@ public class Teacher implements Serializable  {
 	@ManyToOne
 	private Department department;
 	public Teacher(int tit, String salary, String teachername) {
-		super();
+		//super();
 		this.tit = tit;
 		this.salary = salary;
-		Teachername = teachername;
+		this.Teachername = teachername;
 	}
 	public Teacher()
 	{}
